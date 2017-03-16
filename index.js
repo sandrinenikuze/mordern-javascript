@@ -1,2 +1,4 @@
+var date = require('date.js');
 
-console.log(date('10 minutes from now'));
+var datetime = date('10 minutes from now');
+console.log(datetime);
